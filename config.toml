@@ -1,5 +1,4 @@
-baseURL = "openencoder.com"
-relativeURLs = true
+baseURL = "https://openencoder.com"
 languageCode = 'en-us'
 title = 'OpenEncoder'
 

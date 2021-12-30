@@ -1,0 +1,296 @@
+@charset "UTF-8";
+
+@import url(normalize.css);
+
+:root {
+    font-size: 16px;
+    --primary: #0d6efd;
+    --secondary: #6c757d;
+    --success: #198754;
+    --info: #0dcaf0;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #212529;
+    --body-color-rgb: 33, 37, 41;
+    --body-bg-rgb: 255, 255, 255;
+    --font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --body-font-family: var(--font-sans-serif);
+    --body-font-size: 1rem;
+    --body-font-weight: 400;
+    --body-line-height: 1.5;
+    --body-color: #212529;
+    --body-bg: #fff;
+  }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+    line-height: var(--body-line-height);
+    color: var(--body-color);
+    text-align: var(--body-text-align);
+    background-color: var(--body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    font-weight: 500;
+    line-height: 1.2;
+}
+  
+h1, .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+}
+  
+h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+}
+  
+h3, .h3 {
+    font-size: calc(1.3rem + 0.6vw);
+}
+  
+h4, .h4 {
+    font-size: calc(1.275rem + 0.3vw);
+}
+  
+h5, .h5 {
+    font-size: 1.25rem;
+}
+  
+h6, .h6 {
+    font-size: 1rem;
+}
+
+b, strong {
+    font-weight: bolder;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0a58ca;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+pre {
+    padding: .7rem;
+}
+
+blockquote {
+    color: #555555;
+    margin-inline-start: 20px;
+}
+
+.content {
+    padding: .5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0px auto;
+    min-width: 1000px;
+    max-width: 1000px;
+    min-height: 1200px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    flex: 1;
+}
+
+.navbar-menu {
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-menu > * {
+    padding: 1.5rem;
+    color: #444444;
+}
+
+.button {
+    color: #ffffff;
+    padding: 10px 15px;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #74d169;
+    box-shadow: 0 0.125rem 0.15rem rgb(0 0 0 / 6%);
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #6fdb63;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    margin-top: 3rem;
+    background-color: #fff577;
+}
+
+.hero .title {
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.hero .subtitle {
+    color: #555555;
+    font-size: 1.2rem;
+    margin: 1.5rem 0rem;
+}
+
+.footer {
+    color: #555555;
+    text-align: center;
+    line-height: 5rem;
+    margin-top: auto;
+}
+
+.features {
+    padding: 0rem 1rem;
+}
+
+.features ul li {
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.download h1,
+.download h2 {
+    color: #555555;
+    font-size: 2rem !important;
+}
+
+.download h1 {
+    padding-left: 15px;
+}
+
+.download h2 {
+    padding: 5px 15px;
+}
+
+.download .version {
+    color: #333333;
+    padding-left: 10px;
+}
+
+.download .files ul li {
+    padding: 15px 0px;
+}
+
+.download .files ul li a {
+    margin: 0px 10px;
+}
+
+.download .summary {
+    padding-left: 10px;
+}
+
+.download .changelog header {
+    background-color: #fffcd6;
+}
+
+.download .changelog ul li {
+    padding: 5px 0px;
+}
+
+.presets h1 {
+    font-size: 2rem;
+    padding-left: 15px;
+}
+
+.presets header .help {
+    color: #555555;
+    padding: 6px 14px;
+    background-color: #fffcd6;
+}
+
+.presets header .help strong {
+    margin-right: 5px;
+}
+
+.presets header .contribute {
+    color: #777777;
+    padding-left: 10px;
+}
+
+.presets .lists ul {
+    margin: 0px 0px;
+    padding: 10px 15px 0px 35px;
+}
+
+.presets .lists ul li {
+    margin: 5px 0px;
+}
+
+.presets .lists ul li::after {
+    color: #555555;
+}
+
+.presets .lists ul li a {
+    color: #333333;
+}
+
+.presets .lists ul li:hover a {
+    color: #666666;
+    text-decoration: underline;
+}
+
+.presets .lists ul li *:last-child {
+    color: #888888;
+    float: right;
+}
+
+.docs h1 {
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+.docs .references ul li {
+    font-size: 1.2rem;
+    padding: 1rem 0rem;
+}
+
+.docs .references ul li a:hover {
+    text-decoration: underline;
+}

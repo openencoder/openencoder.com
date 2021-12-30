@@ -1,0 +1,17 @@
+{{ define "main"}}
+<main class="docs">
+    <header>
+        <h1>Documentation</h1>
+    </header>
+    <section>
+        {{ .Content }}
+    </section>
+    <section class="references">
+        <ul>
+            {{ range .Pages }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </section>
+</main>
+{{ end }}

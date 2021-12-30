@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main class="download">
+    <header>
+        this is list template
+    </header>
+    <div class="releases">
+        <ul>
+            {{ range .Pages }}
+                <li><a href="#">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+</main>
+{{ end }}

@@ -1,0 +1,114 @@
+[
+  {
+    "title": "CineForm Film",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/cineform-film.json"
+  },
+  {
+    "title": "CineForm High",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/cineform-high.json"
+  },
+  {
+    "title": "CineForm LOW",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/cineform-low.json"
+  },
+  {
+    "title": "CineForm Medium",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/cineform-medium.json"
+  },
+  {
+    "title": "DNXHD 444",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/dnxhd-444.json"
+  },
+  {
+    "title": "DNXHD HQ",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/dnxhd-hq.json"
+  },
+  {
+    "title": "DNXHD HQX",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/dnxhd-hqx.json"
+  },
+  {
+    "title": "DNXHD LB",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/dnxhd-lb.json"
+  },
+  {
+    "title": "DNXHD SQ",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/dnxhd-sq.json"
+  },
+  {
+    "title": "H264 CRF",
+    "type": "Professional",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/h264-crf.json"
+  },
+  {
+    "title": "ProRes 422",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/prores-422.json"
+  },
+  {
+    "title": "ProRes 4444",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/prores-4444.json"
+  },
+  {
+    "title": "ProRes 4444XQ",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/prores-4444xq.json"
+  },
+  {
+    "title": "ProRes HQ",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/prores-hq.json"
+  },
+  {
+    "title": "ProRes LT",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/prores-lt.json"
+  },
+  {
+    "title": "ProRes Proxy",
+    "type": "Professional",
+    "format": "mov",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/prores-proxy.json"
+  }
+]

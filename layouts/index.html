@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main class="home">
+    <header class="hero">
+        <div>
+            <p class="title">OpenEncoder</p>
+            <p class="subtitle">
+                    A free audio and video transcoder based on ffmpeg
+            </p>
+            <a class="button" href="/download">Get Started</a>
+        </div>
+        <div>
+            <img src="/img/pic.png" alt="">
+        </div>
+    </header>
+    <div class="features">
+        {{ .Content }}
+    </div>
+</main>
+{{ end }}

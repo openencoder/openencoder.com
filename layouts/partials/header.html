@@ -1,0 +1,14 @@
+<header class="header">
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="/">
+              <img src="/img/logo.png" width="112" height="35">
+            </a>
+        </div>
+        <div class="navbar-menu">
+            {{ range .Site.Menus.main }}
+            <a href="{{.URL}}">{{.Name}}</a>
+            {{ end }}
+        </div>
+    </nav>
+</header>

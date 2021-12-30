@@ -1,0 +1,29 @@
+{{ define "main"}}
+<main class="download">
+    <header>
+        <h1>download</h1>
+        <p class="version">Current latest version</p>
+        {{ range last 1 .Pages.ByDate }}
+        <p class="files">
+            <ul>
+                <li><strong>Installer:</strong><a href="{{ .Params.link }}/{{ .Params.filename }}.exe" download> {{ .Params.filename }}.exe</a></li>
+                <li><strong>Portable:</strong><a href="{{ .Params.link }}/{{ .Params.filename }}.zip" download> {{ .Params.filename }}.zip</a></li>
+            </ul>
+        </p>
+        <p class="summary">{{ .Summary }}</p>
+        {{ end }}
+    </header>
+    <section class="changelog">
+        <header>
+            <h2>Changelog:</h2>
+        </header>
+        <ul>
+        {{ range last 16 .Pages.ByDate.Reverse }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ .Date.Format "2006-01-02" }}
+            </li>
+        {{ end }}
+        </ul>
+    </section>
+</main>
+{{ end }}

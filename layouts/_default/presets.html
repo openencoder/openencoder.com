@@ -1,0 +1,16 @@
+{{ define "main"}}
+<main class="presets">
+    <header>
+        <h1>Presets</h1>
+        <p class="contribute"> Share your presets with others, you can contribute presets to <a href="https://github.com/openencoder/presets">GitHub</a> repository</p>
+        <p class="help"><strong>tips:</strong> you can use CTRL + F to find</p>
+    </header>
+    <section class="lists">
+        <ul>
+            {{ range getJSON "data/presets.json" }}
+                <li><a href="{{ .url }}" download>{{ .title }} ({{ .format }})</a><span>{{ .author }}</span></li>
+            {{ end }}
+        </ul>
+    </section>
+</main>
+{{ end }}

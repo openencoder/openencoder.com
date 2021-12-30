@@ -1,10 +1,10 @@
 ---
 title: "OpenEncoder"
-date: "2021-12-20"
+date: "2021-12-30"
 draft: false
 ---
 
-# Features
+## Features
 
 - Easy to use user interface
 - Drag and drop to add files

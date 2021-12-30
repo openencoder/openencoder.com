@@ -1,5 +1,47 @@
 [
   {
+    "title": "MP3 high quality",
+    "type": "Aduio",
+    "format": "mp3",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/aac-high-quality.json"
+  },
+  {
+    "title": "AAC low quality",
+    "type": "Aduio",
+    "format": "aac",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/aac-low-quality.json"
+  },
+  {
+    "title": "AAC medium quality",
+    "type": "Aduio",
+    "format": "aac",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/aac-medium-quality.json"
+  },
+  {
+    "title": "Bilibili 1080p",
+    "type": "Bilibili",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/bilibili-1080p.json"
+  },
+  {
+    "title": "Bilibili 4K",
+    "type": "Bilibili",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/bilibili-4k.json"
+  },
+  {
+    "title": "Bilibili 720p",
+    "type": "Bilibili",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/bilibili-720p.json"
+  },
+  {
     "title": "CineForm Film",
     "type": "Professional",
     "format": "mov",
@@ -63,11 +105,53 @@
     "url": "https://github.com/openencoder/presets/raw/main/presets/dnxhd-sq.json"
   },
   {
+    "title": "Facebook 1080p",
+    "type": "Facebook",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/facebook-1080p.json"
+  },
+  {
+    "title": "Facebook 4K",
+    "type": "Facebook",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/facebook-4k.json"
+  },
+  {
+    "title": "Facebook 720p",
+    "type": "Facebook",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/facebook-720p.json"
+  },
+  {
     "title": "H264 CRF",
-    "type": "Professional",
+    "type": "Video",
     "format": "mp4",
     "author": "Evan Hsu",
     "url": "https://github.com/openencoder/presets/raw/main/presets/h264-crf.json"
+  },
+  {
+    "title": "MP3 high quality",
+    "type": "Aduio",
+    "format": "mp3",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/mp3-high-quality.json"
+  },
+  {
+    "title": "MP3 low quality",
+    "type": "Aduio",
+    "format": "mp3",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/mp3-low-quality.json"
+  },
+  {
+    "title": "AAC medium quality",
+    "type": "Aduio",
+    "format": "aac",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/mp3-medium-quality.json"
   },
   {
     "title": "ProRes 422",
@@ -110,5 +194,54 @@
     "format": "mov",
     "author": "Evan Hsu",
     "url": "https://github.com/openencoder/presets/raw/main/presets/prores-proxy.json"
+  },
+  {
+    "title": "Vimeo 1080p",
+    "type": "Vimeo",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/vimeo-1080p.json"
+  },
+  {
+    "title": "Vimeo 4K",
+    "type": "Vimeo",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/vimeo-4k.json"
+  },
+  {
+    "title": "Vimeo 720p",
+    "type": "Vimeo",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/vimeo-720p.json"
+  },
+  {
+    "title": "WAV pcm linear",
+    "type": "Aduio",
+    "format": "wav",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/wav-pcm-linear.json"
+  },
+  {
+    "title": "YouTube 1080p",
+    "type": "YouTube",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/youtube-1080p.json"
+  },
+  {
+    "title": "YouTube 4K",
+    "type": "YouTube",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/youtube-4k.json"
+  },
+  {
+    "title": "YouTube 720p",
+    "type": "YouTube",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/youtube-720p.json"
   }
 ]

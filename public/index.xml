@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenEncoder</title>
+    <link>openencoder.com/</link>
+    <description>Recent content on OpenEncoder</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="openencoder.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>openencoder.com/about/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>openencoder.com/about/</guid>
+      <description>openEncoder is a free software, based on ffmpeg, and it is easy to use. We would be happy to hear your suggestions, You can contact us through admin@openencoder.com</description>
+    </item>
+    
+  </channel>
+</rss>

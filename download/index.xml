@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Download on OpenEncoder</title>
-    <link>openencoder.com/download/</link>
+    <link>https://openencoder.com/download/</link>
     <description>Recent content in Download on OpenEncoder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="openencoder.com/download/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openencoder.com/download/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

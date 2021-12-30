@@ -1,7 +1,7 @@
 ---
 title: "Preset file format reference"
 date: "2021-12-30"
-draft: true
+draft: false
 ---
 
 > How to import preset files: **Presets** -> **Import**

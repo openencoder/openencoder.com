@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on OpenEncoder</title>
-    <link>openencoder.com/categories/</link>
+    <link>https://openencoder.com/categories/</link>
     <description>Recent content in Categories on OpenEncoder</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="openencoder.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://openencoder.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

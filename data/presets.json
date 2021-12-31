@@ -1,8 +1,8 @@
 [
   {
-    "title": "MP3 high quality",
+    "title": "AAC high quality",
     "type": "Aduio",
-    "format": "mp3",
+    "format": "aac",
     "author": "Evan Hsu",
     "url": "https://github.com/openencoder/presets/raw/main/presets/aac-high-quality.json"
   },
@@ -147,9 +147,9 @@
     "url": "https://github.com/openencoder/presets/raw/main/presets/mp3-low-quality.json"
   },
   {
-    "title": "AAC medium quality",
+    "title": "MP3 medium quality",
     "type": "Aduio",
-    "format": "aac",
+    "format": "mp3",
     "author": "Evan Hsu",
     "url": "https://github.com/openencoder/presets/raw/main/presets/mp3-medium-quality.json"
   },

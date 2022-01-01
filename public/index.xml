@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openencoder.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>OpenEncoder v1.0.0 release</title>
+      <link>https://openencoder.com/download/openencoder-1.0.0/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://openencoder.com/download/openencoder-1.0.0/</guid>
+      <description>OpenEncoder v1.0.0 release, Happy New Year!</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://openencoder.com/about/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
@@ -22,8 +31,8 @@
       <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://openencoder.com/docs/preset-file-format-reference/</guid>
-      <description>How to import preset files: Presets -&amp;gt; Import
-  Default preset file storage location: Presets -&amp;gt; Open folder
+      <description>How to import preset files: Preset -&amp;gt; Import
+  Default preset file storage location: Preset -&amp;gt; Open folder
  Example of preset file { &amp;#34;title&amp;#34;: &amp;#34;H264 for 4K&amp;#34;, &amp;#34;type&amp;#34;: &amp;#34;video&amp;#34;, &amp;#34;format&amp;#34;: &amp;#34;mp4&amp;#34;, &amp;#34;author&amp;#34;: &amp;#34;Evan Hsu&amp;#34;, &amp;#34;parameters&amp;#34;: { &amp;#34;c:v&amp;#34;: &amp;#34;libx264&amp;#34;, &amp;#34;pix_fmt&amp;#34;: &amp;#34;yuv420p&amp;#34;, &amp;#34;s&amp;#34;: &amp;#34;3840x2160&amp;#34;, &amp;#34;c:a&amp;#34;: &amp;#34;aac&amp;#34;, &amp;#34;b:a&amp;#34;: &amp;#34;320k&amp;#34; } }  title  Preset title
  type  Preset category name
  format  Output file format, File extension</description>

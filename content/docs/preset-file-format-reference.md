@@ -4,9 +4,9 @@ date: "2021-12-30"
 draft: false
 ---
 
-> How to import preset files: **Presets** -> **Import**
+> How to import preset files: **Preset** -> **Import**
 
-> Default preset file storage location: **Presets** -> **Open folder**
+> Default preset file storage location: **Preset** -> **Open folder**
 
 ### Example of preset file
 

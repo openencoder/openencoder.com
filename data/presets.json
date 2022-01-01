@@ -126,11 +126,25 @@
     "url": "https://github.com/openencoder/presets/raw/main/presets/facebook-720p.json"
   },
   {
-    "title": "H264 CRF",
+    "title": "H264 1080p",
     "type": "Video",
     "format": "mp4",
     "author": "Evan Hsu",
-    "url": "https://github.com/openencoder/presets/raw/main/presets/h264-crf.json"
+    "url": "https://github.com/openencoder/presets/raw/main/presets/h264-1080p.json"
+  },
+  {
+    "title": "H264 4K",
+    "type": "Video",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/h264-4k.json"
+  },
+  {
+    "title": "H264 720p",
+    "type": "Video",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/h264-720p.json"
   },
   {
     "title": "MP3 high quality",

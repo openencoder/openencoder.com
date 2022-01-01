@@ -4,8 +4,8 @@
         <h1>download</h1>
         <p class="version">Current latest version</p>
         {{ range last 1 .Pages.ByDate }}
-        <p class="files">
-            <ul>
+        <p>
+            <ul class="files">
                 <li><strong>Installer:</strong><a href="{{ .Params.link }}/{{ .Params.filename }}.exe" download> {{ .Params.filename }}.exe</a></li>
                 <li><strong>Portable:</strong><a href="{{ .Params.link }}/{{ .Params.filename }}.zip" download> {{ .Params.filename }}.zip</a></li>
             </ul>

@@ -239,6 +239,10 @@ blockquote {
     padding-left: 15px;
 }
 
+.presets header > p {
+    padding-left: 1rem;
+}
+
 .presets header .help {
     color: #555555;
     padding: 6px 14px;

@@ -4,9 +4,9 @@ date: "2021-12-30"
 draft: false
 ---
 
-> How to import preset files: **Preset** -> **Import**
+### contribute
 
-> Default preset file storage location: **Preset** -> **Open folder**
+> Share your presets with others, you can contribute presets to [GitHub](https://github.com/openencoder/presets) repository
 
 ### Example of preset file
 

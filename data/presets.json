@@ -21,6 +21,48 @@
     "url": "https://github.com/openencoder/presets/raw/main/presets/aac-medium-quality.json"
   },
   {
+    "title": "Android 1080p",
+    "type": "Devices",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/android-1080p.json"
+  },
+  {
+    "title": "Android 4K",
+    "type": "Devices",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/android-4k.json"
+  },
+  {
+    "title": "Android 720p",
+    "type": "Devices",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/android-720p.json"
+  },
+  {
+    "title": "Apple 1080p",
+    "type": "Devices",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/apple-1080p.json"
+  },
+  {
+    "title": "Apple 4K",
+    "type": "Devices",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/apple-4k.json"
+  },
+  {
+    "title": "Apple 720p",
+    "type": "Devices",
+    "format": "mp4",
+    "author": "Evan Hsu",
+    "url": "https://github.com/openencoder/presets/raw/main/presets/apple-720p.json"
+  },
+  {
     "title": "Bilibili 1080p",
     "type": "Bilibili",
     "format": "mp4",
